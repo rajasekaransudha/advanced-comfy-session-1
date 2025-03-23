@@ -124,6 +124,54 @@ workflows:
     inputs: []
     outputs: []
     skip_preprocess: true
+  - id: dvbnh4rkz5
+    name: controlnet_connection.json
+    description: ''
+    file: basics/controlnet_connection.json
+  - id: zvkufcohk3
+    name: controlnet_preprocessors.json
+    description: ''
+    file: basics/controlnet_preprocessors.json
+  - id: s379df16bnd
+    name: image_composite_masking.json
+    description: ''
+    file: basics/image_composite_masking.json
+  - id: yko1xdkq1a
+    name: image_resizing.json
+    description: ''
+    file: basics/image_resizing.json
+  - id: wgr2d3nu4zn
+    name: segment_anything.json
+    description: ''
+    file: basics/segment_anything.json
+  - id: npjfe124oj
+    name: basic_inpainting.json
+    description: ''
+    file: inpainting_and_outpainting/basic_inpainting.json
+  - id: j52tlm55irf
+    name: basic_outpainting.json
+    description: ''
+    file: inpainting_and_outpainting/basic_outpainting.json
+  - id: qvgah6vvmqr
+    name: fashion_photography_workflow.json
+    description: ''
+    file: inpainting_and_outpainting/fashion_photography_workflow.json
+  - id: 27v9e1ojio
+    name: product_photography.json
+    description: ''
+    file: inpainting_and_outpainting/product_photography.json
+  - id: 9iivo1l4gja
+    name: product_photography_2.json
+    description: ''
+    file: inpainting_and_outpainting/product_photography_2.json
+  - id: jgjnyo6p1ji
+    name: product_photography_improved.json
+    description: ''
+    file: inpainting_and_outpainting/product_photography_improved.json
+  - id: 1dv6ua5izi
+    name: basic_relighting.json
+    description: ''
+    file: relighting/basic_relighting.json
 normal_workflows:
   - id: dt1vvo7wj2u
     name: basic_inpainting.json
